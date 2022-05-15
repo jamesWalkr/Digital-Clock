@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(https://blenderartists.org/uploads/default/optimized/4X/9/4/4/94410ad08b9abc64c1ab6d215c1a4449a5a0ef9c_2_690x388.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main{
+    background:black;
+    width: 400px;
+    margin: 300px auto;
+    height: 170px;
+    position: relative;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.badge{
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 36%;
+    border-radius: 5px;
+}
+
+.clock{
+    background-color: #ebebeb00;
+    text-align: center;
+    color: #d70e0e;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 5px;
+
+}
